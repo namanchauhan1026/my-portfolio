@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Kumar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c014b6bf65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experiance">Experiance</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span class="pink">Naman</span><br>  <span id="element" class="welcome"></span></h1>
+        </div>
+    </div>
+</div>
+<!-- -------------------about----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A highly motivated and detail-oriented
+                    4th year CSE student with experience in
+                    web development, and machine
+                    learning. Possesses excellent
+                    interpersonal skills including team
+                    leadership, quick learner, and decisionmaking. Passionate about photography,
+                    coding, listening to music, and traveling.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>Bachelor Of Engineering</span><br>Chandigarh University, Mohali, Punjab, 2020-2024</li>
+                        <li><span>Intermediate (CBSE)</span><br>Parker Public Sr. Sec. School, Budhanpur, Bijnor, 2019-2020</li>
+                        <li><span>Matriculation (CBSE)</span><br>Parker Public Sr. Sec. School, Budhanpur, Bijnor, 2017-2018</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>Software Testing</span><br>Certificate of Software Testing from Nptel</li>
+                        <li><span>Web Development</span><br>Certificate of WD Training from Activecraft.</li>
+                        <li><span>Machine learning</span><br>Machine learning course completion certificate from coursera</li>
+                        <li><span>Java</span><br>Java course completion certificate from coursera</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Coding</span><br>I love coding and enjoy it.</li>
+                        <li><span>Photography</span><br>It is my hobby to do photography and capture memories.</li>
+                        <li><span>Listening Music</span><br>I mostly listen music while traveling and enjoy.</li>
+                        <li><span>Photo & Vedio Editing </span><br>In my free time i used to do editing.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------skills-------------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-brands fa-internet-explorer"></i>
+                <h2>Web Development</h2>
+                <p>I'm a web developer proficient in front-end and back-end technologies, creating user-friendly websites and applications. I prioritize quality, stay current with industry trends, and excel in collaborative team environments.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Technical Skills</h2>
+                <p>I possess technical proficiency in both Java and C++, enabling me to develop diverse software applications and solutions. My knowledge spans object-oriented programming in Java and low-level system development in C++, allowing me to work on a wide range of projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <h2>Team Work</h2>
+                <p>I'm versatile, capable of taking the lead and coordinating a team's efforts, ensuring project success as a team leader. Simultaneously, I thrive as a team member, contributing collaboratively, and supporting collective goals with my strong interpersonal and communication skills.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------Experiance----------------------------- -->
+<div id="experiance">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="Image">
+                <div class="layer">
+                    <h3>Home Services Website</h3>
+                    <p>Designed and developed a website for a home service company using
+                        HTML, CSS, and JavaScript.
+                        Implemented features such as service listings, appointment booking.
+                        Created a user-friendly interface for clients to browse and book
+                        services.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="Image">
+                <div class="layer">
+                    <h3>Fake News Detection Project</h3>
+                    <p>Developed a machine learning model using Python and to classify
+                        news articles as either real or fake with an accuracy of 90%
+                        Used various natural language processing techniques to preprocess
+                        the data and extract relevant features.
+                        Performed an analysis on different algorithms.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="Image">
+                <div class="layer">
+                    <h3>Intenship at Activecraft </h3>
+                    <p>Completed a 6-weeks internship as a Web Developer.
+                        Worked on various web development projects using HTML, CSS,
+                        JavaScript, PHP, and MySQL.
+                        Gained experience in front-end and back-end web development,
+                        website maintenance.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more </a>
+    </div>
+</div>
+
+<!-- ---------------------------contact------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>namanchauhanvv@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 8630495616</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100084621382712&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Naman___chauhan?t=K5CvVgIdb_LAd-0cAdv3kQ&s=09" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/p/CuzpPUgI2-CDYYyYiaq2N1n0aoiLq3VXVVUIBY0/?igshid=NjIwNzIyMDk2Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/naman-kumar-015546231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2" ><i class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp;Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg"></span>     
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Naman Kumar</p>
+    </div>
+</div>
+lorem
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemnu.style.right = "-200px";
+
+    }
+
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Welcome To My Portfolio.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3ci5hNqA2ZKZFNyrpElMoMtX6c_s8Ty4ukz3Q4SOsImxKA7gSeQEL6y8X74YirehN/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
